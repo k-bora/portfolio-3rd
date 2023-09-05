@@ -8,6 +8,9 @@
 - github 파일을 관리
 - BEM 네이밍 사용
 
+## 완성작 보기 
+미리보기 : https://kimbora-portfolio.netlify.app/
+
 ## 프로젝트 실행
 - vue를 설치합니다. `npm init vue@latest`
 - sass를 설치합니다. `npm install sass`
