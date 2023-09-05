@@ -172,6 +172,12 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
             .hello {font-size: 2.1875rem;}
         }
     }
+    #port {
+        .sec {overflow: hidden; padding-top: 70px;
+            &Head {padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
+        }
+        
+    }
     .portList {display: flex; flex-wrap: wrap; width: calc(100% * $portCount);
         &__item {width: calc((100% / $portCount) - 30px); min-height: 300px; padding: 15px;}
     }
