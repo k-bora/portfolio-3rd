@@ -12,7 +12,5 @@
 미리보기 : https://kimbora-portfolio.netlify.app/
 
 ## 프로젝트 실행
-- vue를 설치합니다. `npm init vue@latest`
-- sass를 설치합니다. `npm install sass`
-- gsap를 설치합니다. `npm install gsap`
-- lenis를 설치합니다. `npm install @studio-freight/lenis`
+- vue를 설치합니다. `npm install`
+- vue를 실행시킵니다.. `npm run dev`
