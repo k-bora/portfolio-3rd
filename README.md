@@ -13,4 +13,4 @@
 
 ## 프로젝트 실행
 - vue를 설치합니다. `npm install`
-- vue를 실행시킵니다.. `npm run dev`
+- vue를 실행시킵니다. `npm run dev`
