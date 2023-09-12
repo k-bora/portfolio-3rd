@@ -115,6 +115,16 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
         .tit {display: block; padding: 5px 0; font-size: 1.125rem;}
         &.hover {border-color: $mainColor; transition: border .4s;}
     }
+    .swiper {width: 100%; padding: 0 50px;}
+    .mySwiper {position: relative; padding-bottom: 40px;
+        &:before {content:""; position: absolute; left:0; top:-2px; width: 50px; height: calc(100% + 4px); background-color: #1d1d1d; background-image: url(/src/assets/image/noise1.png); z-index: 2; }
+        &:after {content:""; position: absolute; right:0; top:-2px; width: 50px; height: calc(100% + 4px); background-color: #1d1d1d; background-image: url(/src/assets/image/noise1.png); z-index: 2; }
+        .swiper-button-prev, 
+        .swiper-button-next {top: calc(var(--swiper-navigation-top-offset, 50%) - 40px)}
+        .swiper-button-prev:after, 
+        .swiper-button-next:after {font-size: 2rem; color: #fff;}
+        .swiper-pagination-bullet-active {background: #333;}
+    }
 }
 .imgBox {margin: 5px 0; width:100%; height: 200px; border-radius: 5px; overflow: hidden;
     img {width:100%; height: 100%; object-fit: cover;}
@@ -133,16 +143,6 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
     &:hover {color: $mainColor; border-color: $mainColor; transition: all .4s;
         .arrowRight { stroke: $mainColor; fill: $mainColor; transition: all .4s;}
     }
-}
-.swiper {width: 100%; padding: 0 50px;}
-.mySwiper {position: relative; padding-bottom: 40px;
-    &:before {content:""; position: absolute; left:0; top:-2px; width: 50px; height: calc(100% + 4px); background-color: #1d1d1d; background-image: url(/src/assets/image/noise1.png); z-index: 2; }
-    &:after {content:""; position: absolute; right:0; top:-2px; width: 50px; height: calc(100% + 4px); background-color: #1d1d1d; background-image: url(/src/assets/image/noise1.png); z-index: 2; }
-    .swiper-button-prev, 
-    .swiper-button-next {top: calc(var(--swiper-navigation-top-offset, 50%) - 40px)}
-    .swiper-button-prev:after, 
-    .swiper-button-next:after {font-size: 2rem; color: #fff;}
-    .swiper-pagination-bullet-active {background: #333;}
 }
 //contact
 .mailBox {
@@ -223,14 +223,14 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
         &__item {
             min-height: 450px;
         }
-    }
-    .swiper {padding-left: 0; padding-right: 0;}
-    .mySwiper {
-        &:before {display: none;}
-        &:after {display: none;}
-        .swiper-button-prev, 
-        .swiper-button-next {display: none;}
-        .swiper-pagination-bullet {background: #999;}
-        .swiper-pagination-bullet-active {background: #fff;}
+        .swiper {padding-left: 0; padding-right: 0;}
+        .mySwiper {
+            &:before {display: none;}
+            &:after {display: none;}
+            .swiper-button-prev, 
+            .swiper-button-next {display: none;}
+            .swiper-pagination-bullet {background: #999;}
+            .swiper-pagination-bullet-active {background: #fff;}
+        }
     }
 }
