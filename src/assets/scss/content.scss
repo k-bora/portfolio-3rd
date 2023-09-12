@@ -104,13 +104,15 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
 }
 
 //portfolio
-#port {
-    .sec {overflow: hidden;}
-}
-.portList {display: flex; flex-wrap: wrap; width: calc((410px * $portCount) + (30px * $portCount));
-    &__item {display: flex; align-content: space-between; flex-wrap: wrap; width: 410px; min-height: 400px; padding: 15px; margin-right: 30px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 5px;
+// #port {
+//     .sec {overflow: hidden;}
+// }
+.portList {
+    // display: flex; flex-wrap: wrap; width: calc((410px * $portCount) + (30px * $portCount));
+    width: calc(100% + 100px); margin-left: -50px;
+    &__item {display: flex; align-content: space-between; flex-wrap: wrap; width: 410px; min-height: 430px; padding: 15px; margin-right: 30px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 5px;
         div {width: 100%;}
-        .tit {padding: 5px 0; font-size: 1.125rem;}
+        .tit {display: block; padding: 5px 0; font-size: 1.125rem;}
         &.hover {border-color: $mainColor; transition: border .4s;}
     }
 }
@@ -131,6 +133,16 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
     &:hover {color: $mainColor; border-color: $mainColor; transition: all .4s;
         .arrowRight { stroke: $mainColor; fill: $mainColor; transition: all .4s;}
     }
+}
+.swiper {width: 100%; padding: 0 50px;}
+.mySwiper {position: relative; padding-bottom: 40px;
+    &:before {content:""; position: absolute; left:0; top:-2px; width: 50px; height: calc(100% + 4px); background-color: #1d1d1d; background-image: url(/src/assets/image/noise1.png); z-index: 2; }
+    &:after {content:""; position: absolute; right:0; top:-2px; width: 50px; height: calc(100% + 4px); background-color: #1d1d1d; background-image: url(/src/assets/image/noise1.png); z-index: 2; }
+    .swiper-button-prev, 
+    .swiper-button-next {top: calc(var(--swiper-navigation-top-offset, 50%) - 40px)}
+    .swiper-button-prev:after, 
+    .swiper-button-next:after {font-size: 2rem; color: #fff;}
+    .swiper-pagination-bullet-active {background: #333;}
 }
 //contact
 .mailBox {
@@ -172,14 +184,20 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
             .hello {font-size: 2.1875rem;}
         }
     }
-    #port {
-        .sec {overflow: hidden; padding-top: 70px;
+    // #port {
+        .sec {
+            // overflow: hidden; 
+            padding-top: 70px;
             &Head {padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
         }
-        
-    }
-    .portList {display: flex; flex-wrap: wrap; width: calc(100% * $portCount);
-        &__item {width: calc((100% / $portCount) - 30px); min-height: 300px; padding: 15px;}
+    // }
+    .portList {
+        // display: flex; flex-wrap: wrap; width: calc(100% * $portCount);
+        &__item {
+            // width: calc((100% / $portCount) - 30px); 
+            min-height: 430px; 
+            // padding: 15px;
+        }
     }
     .mailBox {
         .mail {min-height: 200px; font-size: 1.75rem;}
@@ -193,7 +211,7 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
     .container {padding: 0;}
     .introList {
         &__date {margin-bottom: 10px;}
-        &__item {align-items: flex-start; flex-direction: column; flex-wrap: wrap; }
+        &__item {align-items: flex-start; flex-direction: column; flex-wrap: wrap;}
         .introInfo {display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; row-gap: 10px; width: 100%;
             &__name,
             &__txt {display: inline-block; text-align: left; padding: 5px 5px 0 5px;}
@@ -201,4 +219,18 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
         }
     }
     .tags {padding: 10px;}
+    .portList {width: 100%; margin: 0;
+        &__item {
+            min-height: 450px;
+        }
+    }
+    .swiper {padding-left: 0; padding-right: 0;}
+    .mySwiper {
+        &:before {display: none;}
+        &:after {display: none;}
+        .swiper-button-prev, 
+        .swiper-button-next {display: none;}
+        .swiper-pagination-bullet {background: #999;}
+        .swiper-pagination-bullet-active {background: #fff;}
+    }
 }
