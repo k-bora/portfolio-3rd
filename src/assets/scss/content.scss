@@ -229,6 +229,7 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
             min-height: 450px;
         }
         .swiper {padding-left: 0; padding-right: 0; scroll-snap-type: y proximity;}
+        .swiper:active {touch-action: pan-x;}
         .mySwiper {
             &:before {display: none;}
             &:after {display: none;}
