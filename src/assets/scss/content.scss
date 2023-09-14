@@ -211,6 +211,7 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
     .pc_769 {display: none;}
     .inner {padding: 0 15px; border: 0;}
     .container {padding: 0;}
+    .heightBox {position: relative;}
     .introList {
         &__date {margin-bottom: 10px;}
         &__item {align-items: flex-start; flex-direction: column; flex-wrap: wrap;}
@@ -221,7 +222,7 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
         }
     }
     .tags {padding: 10px;}
-    .portList {width: 100%; margin: 0;
+    .portList {width: 100%; margin: 0; position: absolute; top:0; left:0;
         &__item {
             min-height: 450px;
         }
