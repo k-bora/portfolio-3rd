@@ -194,7 +194,7 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
     // }
     .portList {
         // display: flex; flex-wrap: wrap; width: calc(100% * $portCount);
-        // .swiper {touch-action: pan-x; user-select: none;}
+        .swiper {touch-action: pan-x pan-y; user-select: none;}
         &__item {
             // width: calc((100% / $portCount) - 30px); 
             min-height: 430px; 
