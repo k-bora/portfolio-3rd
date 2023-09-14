@@ -229,7 +229,7 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
             &:before {display: none;}
             &:after {display: none;}
             .swiper-button-prev, 
-            .swiper-button-next {top: calc(100% - 40px);}
+            .swiper-button-next {top: unset; bottom: 0; height: 40px;}
             .swiper-button-prev:after, 
             .swiper-button-next:after {font-size: 1rem;}
             .swiper-pagination-bullet {background: #999;}
