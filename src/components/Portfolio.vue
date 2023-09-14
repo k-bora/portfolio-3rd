@@ -6,7 +6,7 @@
                 <div class="secHead">
                     <strong class="secHead__tit">Protfolio</strong>
                 </div>
-                <div class="heightBox" :style="{ height: boxHeight + 'px' }">
+                <!-- <div class="heightBox" :style="{ height: boxHeight + 'px' }"> -->
                     <div class="portList">
                         <swiper
                             :slidesPerView="1"
@@ -147,7 +147,7 @@
                             </swiper-slide>
                         </swiper>
                     </div>
-                </div>
+                <!-- </div> -->
             </div>
         </div>
     </section>
@@ -222,21 +222,21 @@ export default {
     //     },
     // },
 
-    data() {
-        return {
-        boxHeight: 0, // 초기 높이 값
-        };
-    },
-    mounted() {
-        this.updateHeight(); // 컴포넌트가 마운트될 때 높이 업데이트
-    },
-    methods: {
-        updateHeight() {
-        var portList = this.$el.querySelector(".portList");
-        var portListHeight = portList.offsetHeight;
-        this.boxHeight = portListHeight;
-        },
-    },
+    // data() {
+    //     return {
+    //     boxHeight: 0, // 초기 높이 값
+    //     };
+    // },
+    // mounted() {
+    //     this.updateHeight(); // 컴포넌트가 마운트될 때 높이 업데이트
+    // },
+    // methods: {
+    //     updateHeight() {
+    //     var portList = this.$el.querySelector(".portList");
+    //     var portListHeight = portList.offsetHeight;
+    //     this.boxHeight = portListHeight;
+    //     },
+    // },
 
 };
 </script>
