@@ -116,6 +116,7 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
         &.hover {border-color: $mainColor; transition: border .4s;}
     }
     .swiper {width: 100%; padding: 0 50px;}
+    .swiper-slide {display: flex;}
     .mySwiper {position: relative; padding-bottom: 40px;
         &:before {content:""; position: absolute; left:0; top:-2px; width: 50px; height: calc(100% + 4px); background-color: #1d1d1d; background-image: url(/src/assets/image/noise1.png); z-index: 2; }
         &:after {content:""; position: absolute; right:0; top:-2px; width: 50px; height: calc(100% + 4px); background-color: #1d1d1d; background-image: url(/src/assets/image/noise1.png); z-index: 2; }
@@ -228,9 +229,13 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
             &:before {display: none;}
             &:after {display: none;}
             .swiper-button-prev, 
-            .swiper-button-next {display: none;}
+            .swiper-button-next {top: calc(100% - 40px);}
+            .swiper-button-prev:after, 
+            .swiper-button-next:after {font-size: 1rem;}
             .swiper-pagination-bullet {background: #999;}
             .swiper-pagination-bullet-active {background: #fff;}
+            .swiper-horizontal > .swiper-pagination-bullets, 
+            .swiper-pagination-bullets.swiper-pagination-horizontal {width: calc(100% - 80px); left: 50%; transform: translateX(-50%);}
         }
     }
 }
