@@ -13,11 +13,8 @@ $portCount: 7;
 html,body{
     font-size: 1rem; font-family: 'Pretendard'; color: $basicColor; background-color: $basicBgColor; background-image: url(../image/noise1.png);
     overscroll-behavior: none; 
-    -webkit-overflow-scrolling: touch; 
     -webkit-touch-callout: none; 
     -ms-content-zooming: none; 
-    // touch-action: pan-x pan-y;
-    // -ms-touch-action: pan-x pan-y;
     user-select: auto; -webkit-user-select: auto; -khtml-user-select: auto; -moz-user-select: auto; -ms-user-select: auto; 
     text-size-adjust: none; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; -moz-text-size-adjust: none; -o-text-size-adjust: none;
     overscroll-behavior-y: contain;
@@ -105,11 +102,7 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
 }
 
 //portfolio
-// #port {
-//     .sec {overflow: hidden;}
-// }
 .portList {
-    // display: flex; flex-wrap: wrap; width: calc((410px * $portCount) + (30px * $portCount));
     width: calc(100% + 100px); margin-left: -50px;
     &__item {display: flex; align-content: space-between; flex-wrap: wrap; width: 410px; min-height: 430px; padding: 15px; margin-right: 30px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 5px;
         div {width: 100%;}
@@ -186,20 +179,13 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
             .hello {font-size: 2.1875rem;}
         }
     }
-    // #port {
-        .sec {
-            // overflow: hidden; 
-            padding-top: 70px;
-            &Head {padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
-        }
-    // }
+    .sec {
+        padding-top: 70px;
+        &Head {padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
+    }
     .portList {
-        // display: flex; flex-wrap: wrap; width: calc(100% * $portCount);
-        // .swiper {touch-action: pan-x; user-select: none;}
         &__item {
-            // width: calc((100% / $portCount) - 30px); 
             min-height: 430px; 
-            // padding: 15px;
         }
     }
     .mailBox {
@@ -212,7 +198,6 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
     .pc_769 {display: none;}
     .inner {padding: 0 15px; border: 0;}
     .container {padding: 0;}
-    // .heightBox {position: relative;}
     .introList {
         &__date {margin-bottom: 10px;}
         &__item {align-items: flex-start; flex-direction: column; flex-wrap: wrap;}
@@ -224,11 +209,10 @@ body.popup-open {position: fixed; top: 0; left: 0; bottom: 0; right: 0; overflow
     }
     .tags {padding: 10px;}
     .portList {width: 100%; margin: 0; 
-        // position: absolute; top:0; left:0;
         &__item {
             min-height: 450px;
         }
-        .swiper {padding-left: 0; padding-right: 0; scroll-snap-type: y proximity;}
+        .swiper {padding-left: 0; padding-right: 0;}
         .swiper:active {touch-action: pan-x;}
         .mySwiper {
             &:before {display: none;}
