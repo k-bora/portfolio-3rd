@@ -11,6 +11,7 @@
                         :slidesPerView="1"
                         :spaceBetween="30"
                         :loop="true"
+                        :freeMode="true"
                         :pagination="{clickable: true,}"
                         :navigation="true"
                         :breakpoints="{
