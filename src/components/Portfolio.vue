@@ -10,7 +10,7 @@
                     <swiper
                         :slidesPerView="1"
                         :spaceBetween="30"
-                        :loop="false"
+                        :loop="true"
                         :resistance="true"
                         :freeMode="true"
                         :pagination="{clickable: true,}"
