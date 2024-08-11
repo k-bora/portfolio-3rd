@@ -32,9 +32,9 @@
                                 <strong class="tit">블랙버드T</strong>
                                 <div class="imgBox"><img src="../assets/image/port_blackbird.jpg"></div>
                                 <div class="txtBox">
-                                    <span class="txt">스마트 관광택시 예약 플랫폼 소개 홈페이지</span>
+                                    <span class="txt">스마트 관광택시 예약 플랫폼 소개 홈페이지, WEBAPP</span>
                                     <span class="txt">PC/모바일 지원, 다국어 지원</span>
-                                    <span class="txt">WEBAPP 플랫폼 제작중</span>
+                                    <span class="txt">WEBAPP 플랫폼 제작, 고도화 중</span>
                                 </div>
                                 <div class="workBox">
                                     <span class="work">UI/UX 퍼블리싱</span>
