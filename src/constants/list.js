@@ -35,7 +35,7 @@ export const workList = [
 export const eduList = [
     {
         startDate: "2021.09",
-        endDate: "재학중",
+        endDate: "2024.09",
         title: "한국방송통신대학교",
         text: "컴퓨터과학과",
     },
