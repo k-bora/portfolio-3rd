@@ -114,10 +114,10 @@
                         </swiper-slide>
                         <swiper-slide class="portList__item">
                             <div>
-                                <strong class="tit">태권브이 키즈카페</strong>
-                                <div class="imgBox"><img src="../assets/image/port_taekwon.jpg"></div>
+                                <strong class="tit">라벨리</strong>
+                                <div class="imgBox"><img src="../assets/image/port_lavelee.jpg"></div>
                                 <div class="txtBox">
-                                    <span class="txt">태권브이 키즈카페 소개 홈페이지</span>
+                                    <span class="txt">라벨리 회사소개 홈페이지</span>
                                     <span class="txt">PC/모바일 지원</span>
                                 </div>
                                 <div class="workBox">
@@ -126,7 +126,7 @@
                                 </div>
                             </div>
                             <div>
-                                <a href="https://taekwonvkp.co.kr/" target="_blank" class="btnLink">사이트 보러가기 <svg class="arrowRight" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34.2 32.3" xml:xpace="preserve" style="stroke-width: 2;"><line x1="0" y1="16" x2="33" y2="16"></line><line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line><line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line></svg></a>
+                                <a href="https://lavelee.co.kr/" target="_blank" class="btnLink">사이트 보러가기 <svg class="arrowRight" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34.2 32.3" xml:xpace="preserve" style="stroke-width: 2;"><line x1="0" y1="16" x2="33" y2="16"></line><line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line><line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line></svg></a>
                             </div>
                         </swiper-slide>
                         <swiper-slide class="portList__item">
