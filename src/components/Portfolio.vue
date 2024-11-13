@@ -29,12 +29,30 @@
                         class="mySwiper">
                         <swiper-slide class="portList__item">
                             <div>
+                                <strong class="tit">춘천시 디지털 신분증</strong>
+                                <div class="imgBox"><img src="../assets/image/port_chuncheon.jpg"></div>
+                                <div class="txtBox">
+                                    <span class="txt">춘천시민을 위한 한번에 보는 디지털 신분증</span>
+                                    <span class="txt">WEBAPP 플랫폼 제작, CMS 관리자</span>
+                                </div>
+                                <div class="workBox">
+                                    <span class="work">UI/UX 퍼블리싱</span>
+                                </div>
+                            </div>
+                            <div>
+                            <!-- <a href="" target="_blank" class="btnLink">사이트 보러가기 <svg class="arrowRight" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34.2 32.3" xml:xpace="preserve" style="stroke-width: 2;"><line x1="0" y1="16" x2="33" y2="16"></line><line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line><line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line></svg></a> -->
+                            <a href="https://k-bora.github.io/portfolio-2nd/portfolio/014_chuncheon/app/html/app-main.html" target="_blank" class="btnLink">APP 메인 마크업 보러가기 <svg class="arrowRight" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34.2 32.3" xml:xpace="preserve" style="stroke-width: 2;"><line x1="0" y1="16" x2="33" y2="16"></line><line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line><line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line></svg></a>
+                            <!-- <a href="https://k-bora.github.io/portfolio-2nd/portfolio/014_chuncheon/cms/html/app-main.html" target="_blank" class="btnLink">CMS 메인 마크업 보러가기 <svg class="arrowRight" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34.2 32.3" xml:xpace="preserve" style="stroke-width: 2;"><line x1="0" y1="16" x2="33" y2="16"></line><line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line><line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line></svg></a>     -->
+                        </div>
+                        </swiper-slide>
+                        <swiper-slide class="portList__item">
+                            <div>
                                 <strong class="tit">블랙버드T</strong>
                                 <div class="imgBox"><img src="../assets/image/port_blackbird.jpg"></div>
                                 <div class="txtBox">
                                     <span class="txt">스마트 관광택시 예약 플랫폼 소개 홈페이지, WEBAPP</span>
                                     <span class="txt">PC/모바일 지원, 다국어 지원</span>
-                                    <span class="txt">WEBAPP 플랫폼 제작, 고도화 중</span>
+                                    <span class="txt">WEBAPP 플랫폼 제작, 고도화</span>
                                 </div>
                                 <div class="workBox">
                                     <span class="work">UI/UX 퍼블리싱</span>
