@@ -20,7 +20,7 @@ export const headerNav = [
 export const workList = [
     {
         startDate: "2021.07",
-        endDate: "재직중",
+        endDate: "2024.10",
         title: "emgram",
         text: "응용 소프트웨어 개발 및 공급업",
     },
