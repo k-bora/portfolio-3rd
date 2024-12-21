@@ -68,14 +68,13 @@
                                 <div class="imgBox"><img src="../assets/image/port_cheongju.jpg"></div>
                                 <div class="txtBox">
                                     <span class="txt">청주시에서 택시를 예약하여 코스여행 할수있는 모바일 웹앱</span>
-                                    <span class="txt">안드로이드만 지원</span>
                                 </div>
                                 <div class="workBox">
                                     <span class="work">UI/UX 퍼블리싱</span>
                                 </div>
                             </div>
                             <div>
-                                <a href="https://k-bora.github.io/portfolio-2nd/portfolio/013_cheongju/webapp/pub/a.html" target="_blank" class="btnLink">추천코스 마크업 보러가기 <svg class="arrowRight" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34.2 32.3" xml:xpace="preserve" style="stroke-width: 2;"><line x1="0" y1="16" x2="33" y2="16"></line><line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line><line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line></svg></a>
+                                <a href="https://skweb.cjsmarttour.kr/promotion/sub.do?menukey=10001#page3" target="_blank" class="btnLink">청주여기 소개 홈페이지 <svg class="arrowRight" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34.2 32.3" xml:xpace="preserve" style="stroke-width: 2;"><line x1="0" y1="16" x2="33" y2="16"></line><line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line><line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line></svg></a>
                                 <a href="https://k-bora.github.io/portfolio-2nd/portfolio/013_cheongju/webapp/pub/c.html" target="_blank" class="btnLink">채팅화면 마크업 보러가기 <svg class="arrowRight" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34.2 32.3" xml:xpace="preserve" style="stroke-width: 2;"><line x1="0" y1="16" x2="33" y2="16"></line><line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line><line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line></svg></a>
                             </div>
                         </swiper-slide>
