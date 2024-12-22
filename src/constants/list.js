@@ -72,6 +72,8 @@ export const skillList = [
     {name: "Scss",},
     {name: "Javascript",},
     {name: "jQuery",},
+    {name: "git",},
+    {name: "sourcetree",},
     {name: "Photoshop",},
     {name: "Illustrator",},
     {name: "Xd",},
