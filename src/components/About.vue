@@ -30,10 +30,9 @@ import { workList , eduList , licenseList , skillList } from "@/constants/list";
                 <div class="introduce">
                     <p class="introduce__text">
                         <strong class="hello">안녕하세요 :&#41;</strong>
-                        도전하는 것은 항상 두려움을 동반합니다.
-                        하지만 그와 동시에 새로운 즐거움을 추구할 수 있다고 생각합니다.
-                        항상 도전하며, 부족하지만 성실히 노력하는
-                        퍼블리셔가 되고 싶습니다.
+                        사용자에게 더 나은 경험을 전달하는 퍼블리싱과 프론트엔드 개발에 관심이 많습니다.
+                        두려움보다는 설렘으로, 부족함보다는 성실함으로 한 걸음씩 나아가고 있습니다.
+                        작은 변화에 책임을 다하며, 팀에 꼭 필요한 사람이 되고 싶습니다.
                     </p>
                     <div class="sec" id="about">
                         <div class="secHead">
