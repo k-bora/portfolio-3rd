@@ -77,7 +77,7 @@
             </swiper-slide>
             <swiper-slide class="portList__item">
               <div>
-                <strong class="tit">춘천시 디지털 신분증</strong>
+                <strong class="tit">춘천 디지털 신분증</strong>
                 <div class="imgBox"><img src="../assets/image/port_chuncheon.jpg" /></div>
                 <div class="txtBox">
                   <span class="txt">춘천시민을 위한 한번에 보는 디지털 신분증</span>
@@ -90,6 +90,23 @@
               <div>
                 <a href="https://k-bora.github.io/portfolio-2nd/portfolio/014_chuncheon/app/html/app-main.html" target="_blank" class="btnLink"
                   >APP 메인 마크업 보러가기
+                  <svg
+                    class="arrowRight"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 34.2 32.3"
+                    xml:xpace="preserve"
+                    style="stroke-width: 2"
+                  >
+                    <line x1="0" y1="16" x2="33" y2="16"></line>
+                    <line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line>
+                    <line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line>
+                  </svg>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=app.ccdid.kr&pli=1" target="_blank" class="btnLink"
+                  >APP 다운로드
                   <svg
                     class="arrowRight"
                     xmlns="http://www.w3.org/2000/svg"
